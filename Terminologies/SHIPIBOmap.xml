@@ -1,0 +1,1070 @@
+<KintermMap>
+    <Name>AKT</Name>
+        <VariablesFactory>
+        <Variables>
+            <Variable Name="Sex">
+                <VariableValueProtos>
+                    <VariableValueProto Value="M"/>
+                    <VariableValueProto Value="F"/>
+                </VariableValueProtos>
+                <VariableValues>
+                    <VariableValue Value="*"/>
+                </VariableValues>
+            </Variable>
+        </Variables>
+    </VariablesFactory>
+    <Kinterms>
+        <Kinterm>
+            <Term>ea</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>420</x><y>217</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>tita</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>bake1</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>bake2</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bake1</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>359</x><y>282</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>ea</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>ea</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>baba</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>414</x><y>341</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>bake1</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>bake2</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba1</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba1</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>chio</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>277</x><y>284</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>pui-f</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>huetsa-f</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nosha</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>181</x><y>286</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>huetsa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>pui</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pia</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>560</x><y>279</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>huetsa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>pui</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>ini</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>652</x><y>279</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>pui-f</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>huetsa-f</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>huetsa</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>165</x><y>211</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>tita</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>nosha</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>nosha</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pui-f</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>281</x><y>215</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>tita</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>chio</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>chio</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pui</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>555</x><y>216</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>tita</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>pia</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>pia</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>huetsa-f</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>634</x><y>210</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papa</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>tita</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>ini</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>ini</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>papa</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>346</x><y>154</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>huetsa</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>pui</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>tita</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>470</x><y>156</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>pui-f</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>huetsa-f</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nachi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>249</x><y>152</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>huetsa</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>pui</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>epa</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>146</x><y>153</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>huetsa</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>pui</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>koka</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>567</x><y>151</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>pui-f</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>huetsa-f</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>huata</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>651</x><y>152</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>pui-f</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>huetsa-f</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>papaisi</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>309</x><y>91</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi-shoko</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan-shoko</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>epa</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>nachi</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>yoshan</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>487</x><y>92</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi-shoko</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan-shoko</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>koka</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>huata</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>papaisi-shoko</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>258</x><y>20</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi-shoko</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan-shoko</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>yoshan</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>yoshan-shoko</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>503</x><y>31</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>papaisi-shoko</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>yoshan-shoko</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>papaisi</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>yoshan</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bake2</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>467</x><y>281</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>ea</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>ea</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>baba1</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>507</x><y>358</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="papa">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="tita">
+                <Product>baba</Product>
+            </Generator>
+            <Generator Name="bake1">
+                <Product>baba1</Product>
+            </Generator>
+            <Generator Name="bake2">
+                <Product>baba1</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+    </Kinterms>
+    <Preferences>
+        <WindowTitle value="Kinship Terms-2"/>
+        <ScrollY value="0"/>
+        <ScrollX value="0"/>
+        <WindowWidth value="976"/>
+        <WindowY value="217"/>
+        <WindowHeight value="622"/>
+        <WindowX value="10"/>
+    </Preferences>
+
+</KintermMap>

@@ -1,0 +1,356 @@
+<KintermMap>
+    <Name>AKT</Name>
+        <VariablesFactory>
+        <Variables>
+            <Variable Name="Sex">
+                <VariableValueProtos>
+                    <VariableValueProto Value="M"/>
+                </VariableValueProtos>
+                <VariableValues>
+                    <VariableValue Value="*"/>
+                </VariableValues>
+            </Variable>
+        </Variables>
+    </VariablesFactory>
+    <Kinterms>
+        <Kinterm>
+            <Term>Luta</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>472</x><y>169</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Tuwa</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Bwada</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Tama</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>466</x><y>95</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Tabu</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Luta</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Tabu</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>465</x><y>35</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Tabu</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Tabu</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Tabu</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Latu</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>475</x><y>245</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Luta</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Tabu1</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Tabu1</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>475</x><y>315</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Tabu1</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Tabu1</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Tabu1</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Tuwa</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>2</Orientation>
+            <Origin><x>606</x><y>168</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Tuwa</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Luta</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Bwada</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>3</Orientation>
+            <Origin><x>336</x><y>177</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Tama">
+                <Product>Tama</Product>
+            </Generator>
+            <Generator Name="Latu">
+                <Product>Latu</Product>
+            </Generator>
+            <Generator Name="Tuwa">
+                <Product>Luta</Product>
+            </Generator>
+            <Generator Name="Bwada">
+                <Product>Bwada</Product>
+            </Generator>
+            <Generator Name="Tama">
+            </Generator>
+        </Products>
+        </Kinterm>
+    </Kinterms>
+    <Preferences>
+        <WindowTitle value="Kinship Terms-2"/>
+        <ScrollY value="0"/>
+        <ScrollX value="0"/>
+        <WindowWidth value="976"/>
+        <WindowY value="128"/>
+        <WindowHeight value="622"/>
+        <WindowX value="276"/>
+    </Preferences>
+
+</KintermMap>

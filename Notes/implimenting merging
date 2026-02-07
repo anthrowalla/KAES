@@ -1,0 +1,26 @@
+in KinshipTermsPanel:coverTerms
+
+assuming that orientations must match.
+added code to test for equivalence of products:
+
+	TransferKinInfo tk1, tk2;
+	tk1 = kw.lookupTerm(k1.getTheTerm());
+	tk2 = kw.lookupTerm(k2.getTheTerm());
+
+	if (! tk1.getProducts().equalvalentTo(tk12.getProducts())) {
+	   Debug.prout(4,"coverTerms: "+k1.getTheTerm()+" not equivalent to "+k2.getTheTerm());
+	   return;
+	}
+
+
+in  TransferKinInfoVector:mergeTerms
+
+am always setting the generator status of the merged term to -1 (not a arrow)
+	isAGenerator = false;
+Should we make the same check in merge that we apply to dropMerge. Or should we assume that the calling routine will do what ever checks (and any reporting).
+
+Merge generators is another routine already.
+
+
+
+

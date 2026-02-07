@@ -1,0 +1,84 @@
+
+
+Mike,
+
+My previous email did not go far enough into the logic of merging.  I did not resolve how we know whether or not to return [bake1, bake2] as a generator or not, just using properties of the kin term map.  My suggested solution depended on using properties at the algebraic level and this violates the basic assumption that the kin term map is a descriptive model that should be meaningful to informants.  That is, we cannot use properties from the algebraic modeling at the level of doing operations in the kin term map.  (This is why your comment that we needed to allow for constructing the AKT kin term map using Father and Mother as kin term generators was crucial since one only knows that Parent is a generator through the algebraic analysis, hence the kin term map should not be based on information that is not known to informants.)  Thus we need to know if [bake1,bake2] is a generator solely by reference to the kin term map.
+
+We need to consider why, when we merge generators A, B and get covering term [A,B] we call [A,B] a generator.  This is not logically necessary.  It is true that we do this in the AKT, but I am beginning to think that the reason for so doing has to do with a peculiarity of the AKT and does  not derive from  structural equivalence per se.  The peculiarity of the AKT is that the analysis demonstrates that conceptually we begin with Parent and then derive Mother, Father through sex marking; that is, it happens that the AKT does have generators Parent and Child and so we are just undoing the sex marking through structural equivalence and thereby recovering the generators Parent and Child.
+
+What structural feature of the AKT simplification implicitly signals that [Son, Daughter] should be a generator?  That feature is the fact that when we begin with separate arrows for Son and Daughter (and Mother and Father), we end up collapsing, under structural equivalence, these two arrows into a single arrow globally throughout the kin term map-- or in some cases the "collapsing" was already done, such as Son or Daughter of Uncle is Cousin. ( By collapsing together I mean that when X --> Y using the Son arrow we also have X --> Y using the Daughter arrow.) What this means is that we can equate Son and Daughter as generators as well as equating them through structural equivalence because the arrows for Son and Daughter are collapsed together everywhere in the kin term map after structural equivalence.  The latter, however, is not a feature of structural equivalence but part of the "deep structure" of the AKT kin term map. 
+
+In contrast, when we merge bake1 and bake2 in the Shipibo terminology, we do not collapse together the bake1 and the bake2 arrows globally throughout the kin term map.  Thus we cannot make the drop-merged  bake1 and bake2 into a generator.
+
+So when we merge bake1 and bake2, the merged term [bake1, bake2] should NOT be marked as a generator!  
+
+This means that the structural property we want is: after merging the generators A and B, is it the case that whenever we have X -->Y via an A arrow, we also have X-->Y via a B arrow?  If so, then [A,B] becomes a generator.  Otherwise [A,B] is not a generator.
+
+This solves the issue of a flag for  getEffectiveGenerators.  In the Shipibo case [bake1,bake2] should NOT be marked as a generator after drop merging in the kin term map via the above criterion.  This does not change the status of bake1 or of bake2 as generators under simplificatgion by sex.  That is, when I unchecked the generator box for [bake1,bake2] and then did simplification, bake1 shows up as a generator in the simplified map as it should.
+
+So we don't need a flag.  What this suggests,though, is that we really should have a test for the AKT case before we make [Mother,Father] and [Son,Daughter] into generators. 
+
+By the way, this gives a partial solution to another problem I just discovered, namely that when we test for focal terms after drop merging and with [bake1,bake2] marked as a generator, ea stops being the focal term and pui and huetsa show up as focal terms.  When the generator box is unchecked for [bake1,bake2], ea is again a focal term -- but so are pui and huetsa. We'll need to check into why we get the extra focal terms, but at least we get ea back as a focal term.  So making [bake1,bake2] into a generator seems to be a problem for several reasons.
+
+I also printed out all of the kin terms and their products after drop-merging bake1 and bake2 and realized that part of the problem is that when we drop merge bake1 and bake2 they are not replaced by [bake1,bake2] when they are the consequences of a kin term product.  I've included part of the kin term map output below and marked in blue the instances where we should have [bake1,bake2]:
+
+
+ ea N false false  [[Kin], [Kin], [Kin], [Kin], [Kin], [Kin], [papa, papa], [tita, tita], [bake1, bake1], [bake2, bake2]]
+
+ bake1 M true true  [[Kin], [Kin], [Kin], [Kin], [Kin], [Kin], [papa, ea], [tita, ea], [bake1, baba], [bake2, baba]]
+ 
+baba N false false  [[Kin], [Kin], [Kin], [Kin], [Kin], [Kin], [papa, bake1], [tita, bake2], [bake1, baba1], [bake2, baba1]]
+
+ chio N false false  [[Kin], [Kin], [Kin], [Kin], [Kin], [Kin], [papa, pui-f], [tita, huetsa-f], [bake1, baba], [bake2, baba]]
+
+etc.
+
+I'm not sure about the bake1 in red -- it's not immediately clear whether we need to keep it unchanged since bake1 is a generator.  I think it should not be changed since we have not removed bake1 as a generator.
+
+I suspect this will solve the problem of the missing kin term in the map after we go back to the original kin term map when the algebra isomorphic to the simplified kin term map has been constructed.
+
+This should also solve the getEffectiveProducts problem since when we do getProducts on, say, baba, using the effective generator form of tita or baba, we will be using tita or baba as the generator and so we'll get [bake1, bake2] as the product of tita with baba or of papa with baba and so getEffectiveProducts will return what we want without any changes.
+
+So it looks like we should be able to resolve the Shipibo case by (1) testing when we do a merge whether or not all of the generator arrows have been collapsed together and if not, the covering term for merged generators is not a generaotr and(2) by replacing all instances of bake1 and bake2 by the drop-merged form of bake1 and bake2 whenever bake1 or bake2 appears as the consequence of a product.
+Dwight
+
+-----------------
+
+
+
+Mike,
+It's a bit more complicated than I thought.  Or rather, we need some clarification of what we mean by structural simplification.  I had forgotten how we actually implemented the AKT simplification.
+
+(1) In the old KAES since I began with Parent and Child as generators, structural equivalence did the trick for the simplification.
+
+In the new KAES where we Mother and Father to be generators, what we did was to first do mergeGenerators.  This converted the kin term map with Mother and Father as generators into one in which we have [Mother, Father] and [Son, Daughter], but other terms have not yet been merged, and where the arrows are now Parent and Child arrows.  Next we could do structural equivalence and get the reduced kin term map (after removing and instances of one -to-many).  mergeGenerators both merges the terms and merges the arrows.
+
+It appears that we had no restrictions on doing mergeGenerators; e.g. I can remove the arrow from Self to Mother and it still happily merges Mother and Father even though it is not clear what merging means in this case.
+
+It all worked on AKT because of the structure of AKT.
+
+(2) With drop-merge it currently has few restrictions on when it can be done, so drop-merge is a bit like mergeGenerator except that drop-merge (as we are implementing it) does not merge arrows.  If one does drop-merge on all of the sex marked pairs of terms in AKT , we get a map where the terms have been merged but the arrows have not been merged.  In this structure our new criterion for merging arrows would apply and we would now merge arrows to get at the simplified AKT map.
+
+(3) So what we have at the moment are several pieces that eventually get us to the simplified AKT in one manner or another, but where we have parts that work only because of the nature of the AKT map -- that is, we do mergeGenerator without any criterion for when it should or should not be applicable.
+
+(4) I originally focused on structural equivalence because it was the appropriate transformation to use when Parent and Child were used as the generators.  However, structural equivalence is too strong in general as it would prohibit drop merge and it is clear that we do need something like drop merge.  We cannot do structural equivalence on the AKT before we do mergeGenerators as there are no terms that are in structurally equivalent positions when we have Father and Mother as generators.  So the question becomes: What criterion should be satisfied before we can do a drop merge?
+
+(5) The basic idea is that in some sense the pattern of arrows with one kin term must be consistent with the pattern of arrows for the other term when we allow for a drop merge.  For arrows leaving the term, the idea behind structural equivalence appears to be necessary. That is, if A --> X then B --> X must also be valid, using the same kind of arrow.  Otherwise, if we have A --> X but the same is not true for B, then when we form [A, B] and if we have [A,B] -->X it would imply that B --> X were we to "unmerge" A and B.  So one part of the criterion should be: We can only merge A and B when A and B are structurally equivalent with regard to arrows that originate at A and at B.
+
+Now what about arrows that terminate at A and B?  Structural equivalence is too strong.  If A and B are sex marked, we can have X --> A and X ==> B where --> and ==> are arrows corresponding to sex marked generators.  We do want to merge A and B in this case and in doing so we arrive at X -->, ==> [A,B] and if we were to separate [A,B] into its constituent parts, then we would conclude that X --> A and X ==> B because of sex marking.  So another criterion should be:  When A and B are sex marked and we have sex marked generators with arrows --> and ==> that are in the same direction, then we can merge A and B only if it is the case that whenever X --> A then X ==> B (where the sex of --> matches the sex of A).
+
+This allows us to drop merge, say, GMother and GFather in the AKT since we have both Mother --> GMother and Mother ==>GFather as well as Father --> GMother and Father ==> GFather.  Also, GMother and GFather satisfy structural equivalence for arrows originating at GMother and at GFather.
+
+In the case of neutral generators we require structural equivalence for incoming arrows.  This is necessary since if we end up with X --> [A,B] and --> is a neutral generator, then if we decompose [A,B] we have X --> A and X --> B, even if A and B are sex marked.  Thus, my original simplification based on Parent and Child and structural equivalence would be subsumed within this schema. 
+
+The remaining possibility would be merging of neutral terms but where the generators are sex marked.  We don't have an example of that, but my first reaction would be to say that we again have to have structural equivalence since X -->[A, B] could be decomposed into X-->A and X-->B so we must have had X-->A and X --> B before we did the merging.
+
+(6) This criterion for merging terms would allow us to do is to keep separate the merging of terms and the merging of arrows, rather than having the kinds of merging mixed together as is actually the case with the AKT.  Whereas we now have the sequence of operations for the AKT of removeAfffines, mergeGenerators, structuralEquivalence, we would have instead have the sequence removeAffines, mergeTerms, mergeGenerators* where mergeTerms would be based on drop merge but with the above criterion for its application, and mergeGenerators* would be our new process for merging arrows.
+
+In the case of the AKT, this will make it much more evident why one merges the generators -- when the kin terms have been merged using drop merge it becomes clear that keeping a sex distinction between the generators is redundant.
+
+Drop merge would just be a manual version of the automatic version of mergeTerms.
+
+Dwight
+                        
+

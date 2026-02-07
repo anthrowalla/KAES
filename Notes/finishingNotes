@@ -1,0 +1,43 @@
+
+B) Semantics of Merging Structurally Similar to Equivalents e.g. should both be available after doing one.
+C) Why are M and F generators generators for Shipibo. 
+D) 	// need to consider role of past panel references in keeping past versions
+
+
+i) Ordering restriction on reduction/simplication and removal of descendents ... 
+ii) Think about more control over what standard multi-step operations might contain. -- macro
+iii) dialog window for selecting equations availble to build algebra from.
+
+
+
+
+
+0) Options should not be greyed out until successful. e.g. Construct Base Algebra when Kinerm map is not simplifed
+1) *At the moment the same file can be open in two windows ... not good - can probably check for file name from the GlobalWindowsManager. -- Probably leave as is for this application
+2) How to fiddle scroll content tabs not to double.
+3) Need a page setup dialogue - pdf and jpeg
+4) Need dirty flag for KintermFrame - mainly maintenance 
+5) restoring mid vbar causes down rather than up shift of image???
+6) Why does clicking on scroll bar in diagnostics window keep flashing up the info window???
+7) Busy cursor when doing operations in Operations menu item Kin Type Products. Busy cursor on all relevant frames.
+8) Don't quit program when closing windows. ex. Tables -- sortof done  - needs checking
+
+9) Graph window doesn't open quite enough for bottom row of buttons
+10) Kinterm table needs a few pixels bottom and right
+11) Activate genological grid window shouldn't repopulate model every time, e.g. Frame3D
+12) Window navigation icons for moving between graph, cayley, kinterms etc.
+13) Initial window placement.
+14) Simplication of the small kinterm map ... make window size of map
+15) when doing radical simplication/algebra generation make graph do right direction
+16) Clicking generator box in kin term should show arrow menu. Making a term a generator, and then trying to revise it can be problematic ... may be an issue when is a descendent term but marked an ancestral one, e.g. nephew.. Not an issue for ascendent term, it appears.
+17) When working with very simplificed kt maps, tables etc don't appear successful after algebra
+18) Window size for Graph window ... needs to be taller.
+19) Examine all Algebra.isArrow  to see if AlgebraSymbol.getArrowType can be substituted
+20) Examine the avaiable option structure ...
+21) Sort kin terms by length of products in Kinterm Table
+22) Default save just saves current kinterm map and algebra
+23) Snapshot mode (variant of undo) -- // see D above
+24) Abiltiy to save only Kinterm map or Algebra.
+25) Ability save save contents of any window.
+
+ 

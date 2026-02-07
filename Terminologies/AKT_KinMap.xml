@@ -1,0 +1,1576 @@
+<KintermMap>
+    <Name>AKT</Name>
+        <VariablesFactory>
+        <Variables>
+            <Variable Name="Sex">
+                <VariableValueProtos>
+                    <VariableValueProto Value="M"/>
+                    <VariableValueProto Value="F"/>
+                </VariableValueProtos>
+                <VariableValues>
+                    <VariableValue Value="*"/>
+                </VariableValues>
+            </Variable>
+        </Variables>
+    </VariablesFactory>
+    <Kinterms>
+        <Kinterm>
+            <Term>Brother</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>402</x><y>245</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Nephew</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Niece</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Sister-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-I</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>550</x><y>420</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Nephew</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Niece</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>1st Cousin Once Removed</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>649</x><y>341</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Cousin</Product>
+                <Product>Great Uncle</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Cousin</Product>
+                <Product>Great Aunt</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>etc-G</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>etc-G</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-H</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>453</x><y>416</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Nephew</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Niece</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Uncle</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>448</x><y>176</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandfather</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Grandmother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Cousin</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Cousin</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-G</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>780</x><y>426</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-D</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>158</x><y>508</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-C</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>253</x><y>504</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Aunt</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>540</x><y>181</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandfather</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Grandmother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Cousin</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Cousin</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-B</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>285</x><y>14</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Great Uncle</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Great Aunt</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>etc-A</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Sister</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>496</x><y>240</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Nephew</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Niece</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Brother-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>etc-A</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>164</x><y>9</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Great Uncle</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Great Aunt</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>etc-B</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Sister-in-law</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>201</x><y>267</y></Origin>
+            <Covered>false</Covered>
+            <Etc>true</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father-in-law</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother-in-law</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Brother</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Grandmother</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>266</x><y>93</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>etc-A</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>etc-B</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Uncle</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Aunt</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Cousin</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>570</x><y>238</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Uncle</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Aunt</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Self</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>332</x><y>243</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Son</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Daughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Spouse</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Granddaughter</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>343</x><y>419</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Son</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Daughter</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>etc-D</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>etc-C</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Mother</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>365</x><y>177</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandfather</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Grandmother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Brother</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Sister</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Father</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Grandson</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>255</x><y>421</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Son</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Daughter</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>etc-D</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>etc-C</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Father</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>272</x><y>174</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Grandfather</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Grandmother</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Brother</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Sister</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Mother</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Daughter</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>366</x><y>325</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Self</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Self</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Son-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Spouse</Term>
+            <Sex>N</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>4</Orientation>
+            <Origin><x>106</x><y>232</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father-in-law</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother-in-law</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Son</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Daughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Self</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Nephew</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>451</x><y>324</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Brother</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Sister</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>etc-H</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>etc-I</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Mother-in-law</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>159</x><y>169</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Brother-in-law</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Sister-in-law</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Father-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Brother-in-law</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>196</x><y>219</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Father-in-law</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Mother-in-law</Product>
+            </Generator>
+            <Generator Name="Son">
+            </Generator>
+            <Generator Name="Daughter">
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Sister</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Great Uncle</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>386</x><y>92</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>etc-A</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>etc-B</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Niece</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>540</x><y>325</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Brother</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Sister</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>etc-H</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>etc-I</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Grandfather</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>162</x><y>93</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>etc-A</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>etc-B</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Uncle</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Aunt</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Father-in-law</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>58</x><y>167</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Brother-in-law</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Sister-in-law</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Mother-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Son</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>278</x><y>325</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>Self</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>Self</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Daughter-in-law</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Great Aunt</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>497</x><y>92</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+                <Product>etc-A</Product>
+            </Generator>
+            <Generator Name="Mother">
+                <Product>etc-B</Product>
+            </Generator>
+            <Generator Name="Son">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>1st Cousin Once Removed</Product>
+            </Generator>
+            <Generator Name="Spouse">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Son-in-law</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>162</x><y>297</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Daughter</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>Daughter-in-law</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>154</x><y>363</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Father">
+            </Generator>
+            <Generator Name="Mother">
+            </Generator>
+            <Generator Name="Son">
+                <Product>Grandson</Product>
+            </Generator>
+            <Generator Name="Daughter">
+                <Product>Granddaughter</Product>
+            </Generator>
+            <Generator Name="Spouse">
+                <Product>Son</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+    </Kinterms>
+    <Preferences>
+        <WindowTitle value="AKTMap"/>
+        <ScrollY value="0"/>
+        <ScrollX value="0"/>
+        <WindowWidth value="990"/>
+        <WindowY value="59"/>
+        <WindowX value="17"/>
+        <WindowHeight value="719"/>
+    </Preferences>
+
+</KintermMap>

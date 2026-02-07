@@ -1,0 +1,73 @@
+From: Dwight Read <dread@anthro.ucla.edu>
+Date: Fri Jun 07, 2002  11:15:23 PM Europe/London
+To: Michael Fischer <M.D.Fischer@ukc.ac.uk>
+Subject: genealogy
+
+Decided to go ahead and write a genealogical diagram drawing procedure. 
+Most of it turned out to be fairly simple once I realized that
+constructing a tree diagram only takes 3 statements.  Basic idea was to
+divide the diagram into two parts --ancestry and descendant.  For each
+step in the recursion I had a single procedure that draws the diagram
+for that step (i.e. the positions at the same genealogical level).  So I
+just had to call hte ancestry recursion and at each event in the
+ancestry recursion I called the descendant recursion.  The main problems
+were getting the dimensions right so that triangles and circles in the
+diagram don't bump into each other and the fact that the shrinking size
+fo the diagram as you go to descendants is not the same for each level
+of ancestry.  Unfortunately the shrinking didn't scale simplly with any
+of the parameters I used for drawing the basic diagram, so ended up
+computing a quadratic equation that did the right scaling.  Other big
+problem was making sure that the equal sign for marriage only connects a
+triangle and a circle.  Most of that was taken care of either in the
+original recursion procedure, or via a fairly simple modification.  Then
+there were about 1/2 dozen left over problem nodes.  Rather than trying
+to work it all out logically, I decided to just set up  if/then
+statements to  make sure the right object (triangle or circle) is drawn.
+A bit crude, but the diagram is fixed.
+
+Doing the corrections to the basic recursion procedure was a pain in the
+neck and very labor intensive.
+
+I still need to get the recursion to compute the kintype products for
+each of hte nodes in  the diagram and have gotten started on that, but
+it still needs to be worked out.
+
+Main issue that is left is something I think you can do far more easily
+than me.  Right now the diagram is activated when an algebra has been
+made and you selec Graph under the Windows menu item.  Instead, it
+should be activatged under Operations, Genealogial Diagram ( or
+something like that) and then select the diagram.  In KinTermFrame there
+is the procedure gridmenuItem_ActionPerformed and that is the location
+for activating the grid diagram.  The code activating the diagram is in
+the procedure populateModel in Frame3D (I've maked the code).  My
+problem is that I am not sure how to activate the graph window from the
+Operations menu.  Also, the diagram is not centered on the window (which
+is due to my using (o,o,o) as the center of the diagram, but that should
+be simple to fix. So if you can shift the code over to the Operations
+menu and get it to activate the graph window then it's down to things
+like putting an ego in the center of the diagram and computing the
+kintype products for each circle and triangle.  The idea I have is to
+use a Hashtable with the kintypes as the keys and the coordinate as teh
+entry.  Then one can use the Hashtable to go from the algebra elements
+with their list of kintypes to the coordinate where the kin term (or an
+abbreviated term) should be printed on the genealogical diagram. The
+place where one can put the entries into the Hashtabgle would be the two
+procedures DrawCircle and DrawTriangle in GenealogicalGrid.  I've set it
+up so that the kintype for a node (once its computation is worked out)
+and the coordinate for the node are sent as arguments to these two
+procedures.  So the information needed for the Hashtable can easily be
+picked up in these two procedures.
+
+I 'ved added two classes: GenealogicalGrid which does all the
+genealogical stuff
+ and GenealogicalModel3D which is a stripped down version of SexModel3D.
+
+I'm off to Boston tomorrow for a International Concerence on Complex
+Systems meeting sponsored by NECSI (New England Complex Systems
+Institute) -- I was asked to come and give one of the plenary talks.
+
+Hopefully I've attached all of the needed files. (other than the two new
+classes, the changes in the other files are minor.)
+more later
+Dwight
+

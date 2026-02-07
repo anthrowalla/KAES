@@ -1,0 +1,72 @@
+  public void buildPaths(AlgebraPath a) {
+	//which one is tracing in string form
+
+	AlgebraPath q1 = (AlgebraPath) a.clone();
+    int max = CayleyTable.MAXLENGTH;//boundary condition
+    for (int i=0;i<generators.size();i++) { 
+      AlgebraSymbol gen = ((AlgebraSymbol) generators.get(i));
+	  if (sexFlag && gen.sex.equals(gen.toString())) continue;//boundary condition
+	  
+      if (gen.isIdentityElement()) continue;//boundary condition
+	  
+      AlgebraSymbol lastx;//next4 lines are to test for a boundary condition for the tracing
+      lastx = a.getReducedProductPath().getLast();
+      AlgebraPath p = new AlgebraPath(gen,lastx);
+      if (p.getReducedProductPath().getFirst().isIdentityElement()) {//boundary condition
+       continue;
+      }
+	  
+	if (p.toString().equals("M")) continue;//algebra includes  F and M in Shipibo case; need to do a
+	//better test or remove F and M in shipibo case
+	if (p.toString().equals("F")) continue;
+	
+      AlgebraPath b = (AlgebraPath) a.clone();//the from algebra element
+
+	 AlgebraPath a1 = (AlgebraPath) a.clone();//test for recursion in structure
+	 a1.product(gen);
+	 
+	 if (a.toString().equals(a1.toString())) {
+	    continue;
+	 }
+	 
+	  String q0 = a.toString();//q0 will just be the X part when the element is an
+	  //equivalent element X&Y such as C&B isomorphic to [bake1,bake2]
+      a.product(gen);//compute product of starting element with the generator to get
+	  //algebra element to which one is arriving
+	  AlgebraPath aa = fullPath(a);//algebra element to which one has just arrived
+	  
+      if (a.getReducedProductPath().getFirst().isZeroElement()) {//boundaary condition
+        a=b;
+        continue;
+      }
+	  
+      AlgebraKinType qq = (AlgebraKinType) get(aa.toString());//qq is the string form
+	  //of the algebra element to which the tracing has just arrived
+	 String q = q0;
+      if (a.getReducedProductPath().size() > max) {
+	   a = b;
+        continue;
+      }
+     else if (qq == null) { //!!!!!!!!
+        // Debug.prout(4,"Product not found!qq = "+a.toString());
+      a = b;
+    } else if ((qq.visited) { //  && (lv[i].indexOf(q))!= -1) { //qq.visited ==> alg element qq has
+		//been visited; second condition verifies that the path from q to qq has been traversed
+		//already; takes into account that qq can be reached from different algebra elements
+		//and need to continue search when qq is arrived at from a different element, q, than
+		//some other path that reached qq
+       record(q1,gen,aa,a);//dr deleted 1/29//a from, aa to, by gen, a has kin types q1
+       a=b;
+      } else {
+        qq.visited=true;
+		if (lv[i].indexOf(q) == -1)
+		    lv[i].addElement(q);
+        record(q1,gen,aa,a);//aa is full path of a and is to node
+       buildPaths(a);
+        //qq.visited = false;//temporarily remove; get circularity if included
+	   a = b;//crucial -- otherwise no output
+      }
+    }
+	qq.visited = false;
+    return;
+  }

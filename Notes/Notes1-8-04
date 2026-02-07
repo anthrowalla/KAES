@@ -1,0 +1,26 @@
+1) graph window should respond to a new algebra when window menu item chosen - to front 
+	1a) menu item construct graph should bring graph window to front with algebra: 
+	make graph in algebra operations should switch graph type to algebra like genological grid in Operations
+//2) temporarily suspend menu options for ego type in tables (Operations) until actual differences implemented
+3) Generally tidy up window positions 
+4) same menu bar all around
+5) investigate reversing graph vertical axis directions e.g. in paint adjust not only the origin,  
+   but the direction of offset on vertical lines e.g. so 2 is above not below origin
+6) when recursive line (top to bottom or side to side) on select bring bit outside term rectangle so can be selected.
+// 7) prints the algebra is isomorphic twice in dialog box
+// 8) in Tops/Bops (itemStateChanged Tops 218/Bops 268) a false opcode resets all menu items ... need to be be a little more subtle. See
+// how to uncheck the last one only, not all; Need to record appropriate states and restore to last menu item. So probably a lastMenuitem variable
+// combined with general undo (autoundo) -- also run down why is coming back false in the first place.
+
+9) Need to destroy the prefs window when done, not merely hiding it.
+
+10) When changing a term from Neutral to Gendered must check through every terms product list to remove incorrectly
+ gendered terms (e.g. wrong generator from foreign term). Special checkfor changing sex of generator (to relations).
+
+11) make busy cursor for make table from menu // graphs?
+
+12) Centre bloody graph. Need to make graph window slightly taller?????????????????????????
+
+
+
+

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(java:*)",
+      "Bash(ant clean:*)",
+      "Bash(ant compile:*)",
+      "Bash(ant jar:*)",
+      "Bash(timeout:*)",
+      "Bash(pkill:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}

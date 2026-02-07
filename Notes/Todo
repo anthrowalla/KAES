@@ -1,0 +1,96 @@
+To be done:
+MF (1) - PROGRESS much work -- more options - invoke KAES window	
+Initial opening screen: possibly palette of options (Make Map, Construct Algebra, Show Graph, load)   
+
+---------------------------MF (3) -- DONE	Scroll bars on kin term map
+---------------------------MF (4) -- DONE	Less thick lines on kin term map
+
+---------------------------MF (5) -- DONE Fixed problem with ants - still double buffers, but needs to	Make double buffering an option
+
+DR/MF (6) -- [DONE] preferences mechanism, save and load for application and  kintermframe document - 
+	[PROGRESS] need panel.
+	[NEED INPUT] Preferences - start making a list of possible prefernces MF to produce preference panel.
+
+MF *(8)[PROGRESS] Print kin term map and graphs
+
+MF **(10) [DONE - may revise] Split Dialogue window in 2/3 of window for dialog, 3 lines of window for single error messages. Clicking on error message brings up message window. Evaluate current message mechanism for updating this box ... what is involved in dealing with 13. Have XML converison for message units.
+
+**(11)	[NEED INPUT] Problem of logic with gray or black for menu items. Need an example!!
+
+*(12) [13-5-02] [SUSPENDED] // scrub for now ... can't find the problem	Check out the two methods of drawing large and small graphs; why two methods
+
+DR *(13) [14-5-02]	[PROGRESS] Report what failed when there is no isomorphism.  
+
+**(14) [14-5-02] with 15 [MUCH PROGRESS ... need INPUT on applications of this] Dump out current state of analysis -- exporting algebras etc.  
+
+**(15) [14-5-02]
+
+	Save algebra using xml files. Investigate parsing algebra to recover menu states etc + any meta-algebraic operations performed which will be logged and stored as they occur. In worst case just use logged menu operations. Load files with null algebra but have menu option to use algebra saved with file. Load arbitrary algebrae????  
+
+Dump out algebra graph as xml vector file (see 15)
+
+Need to journal all menu transactions, particularly for kintermmap, and record with kintermmap. 
+
+save kintermmap stack, theAlgebra, and journals for kintermmpa and algebra which will be stored in each respectively.
+
+***(19) [14-5-02]	[NEED MORE DEFINITION] Kin terms  - sets of kin types  - genealogical graph - try bread crumbs ... 
+	two way presentation e.g. genological grid and table of ktrm x ktyp -- ? 
+	sibling option for production e.g. pcg rather than pc
+
+
+
+
+MF (18) - [PROGRESS] - most serious problems solved with auto scaling and origin reset in place	X,y,z handles for fine adjustments of 3-d rotation; home for resetting location of graph. First try just rotate in 360 degrees.
+
+MF 20) Move docs/images/dtds into Java Jar File System
+
+MF 21) [WE NEED to SELECT EXTENSION: - can't just be .xml ... that is reserved for editiors etc these days] 
+	In open dialog default show files with proper extention (we have to pick one) or type, with checkbox for all text file. 
+	[propose .kaes .kas or .kae]
+
+MF 22)[SOME PROGRESS] rationalise window position on create/show
+
+MF 23) [NEED TO REVIEW] Much lighter internal lines in Cayley Table
+
+
+
+DR/MF 24) Take text version of cayley table, change = to equals and add to bottom of table Cayley view with scrollbar once MF 
+	adds scrollbar and text area to table CayleyTable
+
+=================
+MF - all 25 issues
+25) General menu item ... print front window, export front window, windows menu, 
+
+	Regularize menus
+
+25a) Cayley Table Menus. algebra symbols rather than kin terms - ??? other parallels with graph 
+
+25b) 
+PROGRESS  (More or less) Graph controls add radiobutton to control labels being not shown in addtion to algebra or kin tems - make graph resize when window resized - but bias towards more margin e.g. grow graph a little, increase area graph operates within to full bounds. ?? possibly option to show both kin terms and algebra symbols on same graph.  Graph should initally be shown at 45 degree angle to elucidate labels.
+
+--------------------DONE relevant bits Zoom in and zoom out of graph window - revised ... shrink to fit existing frame ??? down to a defined level, where labels will be dropped.
+
+	Graph of kin term map (stripped down version, non-editable. To be displayed on Graph window.
+
+--------------------DONE reset layer and generator etc to default on new graph.
+
+25c) Kin term Map Window. Add "+" button on small graph to shift to large graph. Double click in graph window should use new initial position as specified in 25b. e.g. 45 degrees or whatever. Generators are highlighted in graph.
+
+Kin term map frame, generators are different visually ... colour 
+
+In dialogue box set to wrap. Consider keeping all dialogue, possibly by separating with line 
+??? should  Kinterm frame not change busy cursor upon entry
+
+DR **26) deal with etc items in Cayley Table (currently relations that are also etc show blank).
+
+?27) ??? Coordinating cayley table with graph
+
+---------------
+
+DR/MF 28) Explore current state of push/pop kin term maps and algebra contexts. Explore independence of Aops structures between kintermFrame Windows. Make sure that all new algebra creation or cloning is updated in the setFrameAlgebra routine. 
+
+
+MF  29. Make KAES window associated with a specific KintermFrame and indicate this somehow.
+
+Number each set in title bar and possibly colour code.
+

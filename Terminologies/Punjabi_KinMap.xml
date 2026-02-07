@@ -1,0 +1,3746 @@
+<KintermMap>
+    <Name>AKT</Name>
+        <VariablesFactory>
+        <Variables>
+            <Variable Name="Sex">
+                <VariableValueProtos>
+                    <VariableValueProto Value="M"/>
+                    <VariableValueProto Value="F"/>
+                </VariableValueProtos>
+                <VariableValues>
+                    <VariableValue Value="*"/>
+                </VariableValues>
+            </Variable>
+        </Variables>
+    </VariablesFactory>
+    <Kinterms>
+        <Kinterm>
+            <Term>bap</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>373</x><y>175</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>dada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>ma</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>ma</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>0</Orientation>
+            <Origin><x>477</x><y>175</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>nana</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bap</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhain</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>566</x><y>241</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bap</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>ma</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhanja</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhanji</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>jija</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>238</x><y>237</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bap</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>ma</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>patija</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>patiji</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhabi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>mama</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>652</x><y>170</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>nana</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>mami</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>masi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>749</x><y>170</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>nana</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>masaR</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>tai-chacha</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>140</x><y>160</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>dada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>chachi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>phua</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>295</x><y>174</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>dada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>phuppaR</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>mera</Term>
+            <Sex>N</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>393</x><y>243</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bap</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>ma</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>putar</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>patni</Product>
+            </Generator>
+            <Generator Name="patii">
+                <Product>patii</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>dada</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>291</x><y>106</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pardada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>pardadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>tai-chacha</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>phua</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>dadi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>390</x><y>108</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pardada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>pardadi</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+                <Product>phua</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>dada</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardada</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>206</x><y>56</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>nakardada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>nakardadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>dada</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>pardadi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardadi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>331</x><y>57</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>nakardada</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>nakardadi</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>dada</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>dadi</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>pardada</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardada</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>125</x><y>4</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardada</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardadi</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakardadi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardadi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>260</x><y>9</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardada</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardadi</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakardada</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nana</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>490</x><y>110</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>parnana</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>parnani</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>mama</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>masi</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nani</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>570</x><y>110</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>parnana</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>parnani</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>mama</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>masi</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nana</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>parnana</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>508</x><y>41</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nana</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>parnani</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>parnani</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>607</x><y>45</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nana</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nani</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>parnana</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>putar</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>350</x><y>308</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>mera</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>mera</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>nuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>putri</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>1</Orientation>
+            <Origin><x>438</x><y>306</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>mera</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>mera</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>joai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>patija</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>225</x><y>309</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>paijnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>patiji</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>91</x><y>306</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>patijjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanja</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>741</x><y>302</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhanjdota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhanjdoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhanjnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanji</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>663</x><y>303</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bhanjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>dota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>394</x><y>363</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>dotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+                <Product>dota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>doti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>481</x><y>362</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>dotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjdota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>717</x><y>366</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bhanja</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhanjdotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjdoti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>810</x><y>364</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>bhanja</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bhanjdotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pohta</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>81</x><y>359</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>putar</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>parota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>paroti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>pohtnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pohti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>246</x><y>364</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>putar</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarpohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarpohti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>pohtjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardoti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>847</x><y>433</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>pardotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>parota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>89</x><y>442</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarparota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarparoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>parotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>paroti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>162</x><y>442</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarparota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarparoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>parotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarpohti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>498</x><y>442</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakarpohtjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarpohta</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>406</x><y>442</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakarpohtnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>772</x><y>435</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>pardotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>709</x><y>537</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakardotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardoti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>804</x><y>539</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakardotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarparota</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>111</x><y>532</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>parota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>paroti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakarparotnuh</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarparoti</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>215</x><y>536</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+                <Product>parota</Product>
+            </Generator>
+            <Generator Name="ma">
+                <Product>paroti</Product>
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakarparotjoai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>masaR</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>825</x><y>170</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>masi</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>patni</Term>
+            <Sex>F</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>4</Orientation>
+            <Origin><x>329</x><y>244</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>putar</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>patii</Term>
+            <Sex>M</Sex>
+            <IsGen>true</IsGen>
+            <Orientation>4</Orientation>
+            <Origin><x>463</x><y>244</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>putar</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>mami</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>579</x><y>172</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>mama</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>chachi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>54</x><y>163</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>tai-chacha</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>phuppaR</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>220</x><y>173</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhai</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>phua</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>jija</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>645</x><y>241</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhanja</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhanji</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhain</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhabi</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>156</x><y>236</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>patija</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>patiji</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bhai</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>289</x><y>308</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>putar</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>joai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>504</x><y>306</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>putri</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>584</x><y>305</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhanji</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>818</x><y>306</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>bhanjdota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>bhanjdoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bhanja</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>patijjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>13</x><y>305</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>dota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>patiji</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>paijnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>155</x><y>306</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>patija</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pohtnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>3</x><y>355</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>parota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>paroti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>pohta</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pohtjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>168</x><y>364</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarpohta</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarpohti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>pohti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>dotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>325</x><y>363</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>dota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>dotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>547</x><y>361</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>pardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>doti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjdotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>620</x><y>363</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>bhanjdota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>bhanjdotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>891</x><y>364</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>bhanjdoti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>parotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>3</x><y>440</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarparota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarparoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>parota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>parotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>227</x><y>443</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakarparota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakarparoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>paroti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarpohtnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>303</x><y>443</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakarpohta</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarpohtjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>586</x><y>441</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakarpohti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>688</x><y>439</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>pardota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>pardotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>915</x><y>431</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+                <Product>nakardota</Product>
+            </Generator>
+            <Generator Name="putri">
+                <Product>nakardoti</Product>
+            </Generator>
+            <Generator Name="patni">
+                <Product>pardoti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarparotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>317</x><y>536</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakarparoti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakarparotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>0</x><y>533</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakarparota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardotjoai</Term>
+            <Sex>M</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>895</x><y>537</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="M"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+                <Product>nakardoti</Product>
+            </Generator>
+            <Generator Name="patii">
+            </Generator>
+        </Products>
+        </Kinterm>
+        <Kinterm>
+            <Term>nakardotnuh</Term>
+            <Sex>F</Sex>
+            <IsGen>false</IsGen>
+            <Orientation>-1</Orientation>
+            <Origin><x>604</x><y>537</y></Origin>
+            <Covered>false</Covered>
+            <Etc>false</Etc>
+            <CoveringTerm>null</CoveringTerm>
+            <CoveredTerms>null</CoveredTerms>
+            <Variables>
+                                <Variable Name="Sex">
+                    <VariableValues>
+                        <VariableValue Value="F"/>
+                    </VariableValues>
+                </Variable>
+
+            </Variables>
+        <Products>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="Kin">
+            </Generator>
+            <Generator Name="bap">
+            </Generator>
+            <Generator Name="ma">
+            </Generator>
+            <Generator Name="putar">
+            </Generator>
+            <Generator Name="putri">
+            </Generator>
+            <Generator Name="patni">
+            </Generator>
+            <Generator Name="patii">
+                <Product>nakardota</Product>
+            </Generator>
+        </Products>
+        </Kinterm>
+    </Kinterms>
+    <Preferences>
+        <WindowTitle value="a_PunjabiD"/>
+        <ScrollY value="0"/>
+        <ScrollX value="0"/>
+        <WindowWidth value="994"/>
+        <WindowY value="22"/>
+        <WindowHeight value="866"/>
+        <WindowX value="28"/>
+    </Preferences>
+
+</KintermMap>

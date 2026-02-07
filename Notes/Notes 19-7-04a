@@ -1,0 +1,155 @@
+
+
+Architectural issues
+
+	Cayley table 
+		Kinterm -- Progress
+			interchange between graphical KTM and cayley - entry in either - interaction between the two - 
+				should permit direct geneation of algebram from Cayley table via coversion to KTM
+			general pattern  of layout and major options for layout e.g. common templates
+			designating minimal sets of terms to try entering for predicting other KT positions
+			possiblity of using simple expert system to help choose intial template 
+			
+		Algebra 
+			interaction with KT Cayley of some sort - display both algebra and KT defintions - all combinations e.g.
+				labels KT contents algebra vice versa and all together and separate
+			Working with multiple systems ?? 
+				Working with alternative of the same system
+				Comparing different systems
+			
+	 When single kin term position in editor determines is complex.... may be true 
+	
+	WHy is descendent structure not simplified and ascendent simlified ... shipibo ??? maybe resolved
+	
+	Evaluate need for the Construct Base Algebra relative to Construct Minimul Base Algebra  -- almost decided to eliminate if possible - probable
+		(almost certain for the Algebra Operations  menu)
+	
+	
+	
+	
+Appearance issues
+
+	Cayley Table kinterms fit window to content size
+	Check to see if table borders bottom and left are drawing errors
+	make internal lines lighter/ apparent attempt at beveling ... fix or lose
+	investigate use of colour coding
+	
+	Graph window ... need to fix homing put I in centre.
+	Needs to make window slightly taller
+	Check out other terminologies and Generalogical option
+
+Features
+
+
+Functionality issues (using what's available)
+
+probably when covered terms drop merged, on redraw all three drawn. probably because using mouse down and not mouse up. 
+
+	in constructing name for covered terms use one procedure so is always same name ... this should lead to not being duplicated
+		in Shipibo case.     
+
+coordination of Algebra Steps and Algebra Operations with respect to activating and inhibiting choices and reseting to 
+	prior state. Generally see what provisions are already in place for coordinating these menus. 
+	We should make a list of serious problems on assumption will also work for others.    -  resolved by merging together the two menus
+
+
+New Functionality Issues
+
+	Preferences structure and choices of what is settable 
+	Preferences include saving graph orientations and slected generators and layers .e.g. restore
+		preference for auto-connecting reciprocal arrown when assigning spouse in KTM editor.
+		possible prefences to deal with recognizeing collaterl+ and collateral- polarity or ignoring
+		same e.g. just collateral. See how this works in the algebra formation process and remapping back to KTM.
+		
+		Restrict to the editor only ... that is add a psuedo-generator SIDE to the menu
+		list of generator types, when SIDE selected sets flag that dispenses with honouring polarity and uses +polarity
+		as the SIDE representation. In editor make adjustmetns as follows.
+		See if adjustments need in term union (e.g. dropping one term on another in editor and the transferkininfo structure union.
+		
+	Saving cayley tables for comparison - what stems from this beyond simple comparison.
+	Journalling choices for save states - saving algebra, cayley table, journalling of some extent
+	Printing and saving - including what to save independently and saving states
+	Report writing 
+	Save for restore
+	Normal save
+	Load vs Restore for files with state information
+
+------------------------
+
+
+
+
+**(11)	[NEED INPUT] Problem of logic with gray or black for menu items. Need an example!!
+
+DR *(13) [14-5-02]	[PROGRESS] Report what failed when there is no isomorphism.  
+
+**(14) [14-5-02] with 15 [MUCH PROGRESS ... need INPUT on applications of this] Dump out current state of analysis -- exporting algebras etc.  
+**(15) [14-5-02]
+
+	Save algebra using xml files. Investigate parsing algebra to recover menu states etc + any meta-algebraic operations performed which will be logged and stored as they occur. In worst case just use logged menu operations. Load files with null algebra but have menu option to use algebra saved with file. Load arbitrary algebrae????  
+
+Dump out algebra graph as xml vector file (see 15)
+
+Need to journal all menu transactions, particularly for kintermmap, and record with kintermmap. 
+
+save kintermmap stack, theAlgebra, and journals for kintermmpa and algebra which will be stored in each respectively.
+
+
+MF - all 25 issues
+25) General menu item ... print front window, export front window, windows menu, 
+
+	Regularize menus
+
+25a) Cayley Table Menus. algebra symbols rather than kin terms - ??? other parallels with graph 
+
+25b) 
+PROGRESS  (More or less) Graph controls add radiobutton to control labels being not shown in addtion to algebra or kin tems - make graph resize when window resized - but bias towards more margin e.g. grow graph a little, increase area graph operates within to full bounds. ?? possibly option to show both kin terms and algebra symbols on same graph.  Graph should initally be shown at 45 degree angle to elucidate labels.
+
+--------------------DONE relevant bits Zoom in and zoom out of graph window - revised ... shrink to fit existing frame ??? down to a defined level, where labels will be dropped.
+
+	Graph of kin term map (stripped down version, non-editable. To be displayed on Graph window.
+
+--------------------DONE reset layer and generator etc to default on new graph.
+
+25c) Kin term Map Window. Add "+" button on small graph to shift to large graph. Double click in graph window should use new initial position as specified in 25b. e.g. 45 degrees or whatever. Generators are highlighted in graph.
+
+Kin term map frame, generators are different visually ... colour 
+
+In dialogue box set to wrap. Consider keeping all dialogue, possibly by separating with line 
+??? should  Kinterm frame not change busy cursor upon entry
+
+
+DR/MF 28) Explore current state of push/pop kin term maps and algebra contexts. Explore independence of Aops structures between kintermFrame Windows. Make sure that all new algebra creation or cloning is updated in the setFrameAlgebra routine. 
+
+
+
+
+---------------
+Operational issues
+
+loading and restoring window position and size .... check that screen is big enough else resize
+
+when combining terms the old selection rectangle remains selected (e.g. ants only) ... probably only need to
+tell ants to stop marching. possibly a first time issue, first time green highlighting remains - check and see if I can
+reproduce this at all!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------
+
+
+***(19) [14-5-02]	[NEED MORE DEFINITION] Kin terms  - sets of kin types  - genealogical graph - try bread crumbs ... 
+	two way presentation e.g. genological grid and table of ktrm x ktyp -- ? 
+	sibling option for production e.g. pcg rather than pc
+
+
