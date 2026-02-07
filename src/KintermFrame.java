@@ -42,8 +42,16 @@ public class KintermFrame extends Frame implements Printable
 			int wy = docPreferences.getInt("WindowY");
 			int ww = docPreferences.getInt("WindowWidth");
 			int wh = docPreferences.getInt("WindowHeight");
-			if (wx != -1 && wy != -1 && ww != -1 && wh != -1)
+			if (wx != -1 && wy != -1 && ww != -1 && wh != -1) {
+				// Enforce minimum size based on scaled layout so that
+				// the algebraControlPanel, ThreeD graph, text areas and
+				// scroll pane are all visible at the current scale factor.
+				int minW = ScaleManager.s(976);
+				int minH = ScaleManager.s(600);
+				if (ww < minW) ww = minW;
+				if (wh < minH) wh = minH;
 				setBounds(wx,wy,ww,wh);
+			}
 			String title = docPreferences.getString("WindowTitle");
 			if (title != null) setTitle(title);
 			int sx = docPreferences.getInt("ScrollX");
@@ -61,6 +69,7 @@ public class KintermFrame extends Frame implements Printable
 		docPreferences.putPreference("ScrollX",scrollKin.getScrollPosition().x);
 		docPreferences.putPreference("ScrollY",scrollKin.getScrollPosition().y);
 		docPreferences.putPreference("WindowTitle",getTitle());
+		docPreferences.putPreference("ScaleFactor",ScaleManager.getScaleFactor());
 	}
 
 	public KintermFrame()
