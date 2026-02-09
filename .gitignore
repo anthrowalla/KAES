@@ -18,3 +18,5 @@ dist/
 
 # Application preferences (user-specific)
 KAESPrefs.xml
+
+ignore/*

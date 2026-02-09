@@ -112,7 +112,7 @@
             <Sex>N</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>649</x><y>341</y></Origin>
+            <Origin><x>1600</x><y>599</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -207,7 +207,7 @@
             <Sex>M</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>350</x><y>205</y></Origin>
+            <Origin><x>1037</x><y>413</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -254,7 +254,7 @@
             <Sex>N</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>780</x><y>426</y></Origin>
+            <Origin><x>1691</x><y>720</y></Origin>
             <Covered>false</Covered>
             <Etc>true</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -390,7 +390,7 @@
             <Sex>F</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>540</x><y>181</y></Origin>
+            <Origin><x>1179</x><y>416</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -437,7 +437,7 @@
             <Sex>F</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>285</x><y>14</y></Origin>
+            <Origin><x>605</x><y>25</y></Origin>
             <Covered>false</Covered>
             <Etc>true</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -531,7 +531,7 @@
             <Sex>M</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>164</x><y>9</y></Origin>
+            <Origin><x>332</x><y>34</y></Origin>
             <Covered>false</Covered>
             <Etc>true</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -623,7 +623,7 @@
             <Sex>F</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>266</x><y>93</y></Origin>
+            <Origin><x>503</x><y>261</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -670,7 +670,7 @@
             <Sex>N</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>570</x><y>238</y></Origin>
+            <Origin><x>1461</x><y>569</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -814,7 +814,7 @@
             <Sex>F</Sex>
             <IsGen>true</IsGen>
             <Orientation>0</Orientation>
-            <Origin><x>882</x><y>546</y></Origin>
+            <Origin><x>860</x><y>424</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -909,7 +909,7 @@
             <Sex>M</Sex>
             <IsGen>true</IsGen>
             <Orientation>0</Orientation>
-            <Origin><x>732</x><y>549</y></Origin>
+            <Origin><x>680</x><y>415</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -1193,7 +1193,7 @@
             <Sex>M</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>386</x><y>92</y></Origin>
+            <Origin><x>779</x><y>265</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -1287,7 +1287,7 @@
             <Sex>M</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>162</x><y>93</y></Origin>
+            <Origin><x>262</x><y>266</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -1428,7 +1428,7 @@
             <Sex>F</Sex>
             <IsGen>false</IsGen>
             <Orientation>-1</Orientation>
-            <Origin><x>497</x><y>92</y></Origin>
+            <Origin><x>984</x><y>257</y></Origin>
             <Covered>false</Covered>
             <Etc>false</Etc>
             <CoveringTerm>null</CoveringTerm>
@@ -1569,9 +1569,9 @@
         <ScrollX value="0"/>
         <WindowWidth value="1954"/>
         <WindowY value="59"/>
-        <ScaleFactor value="2"/>
-        <WindowHeight value="1543"/>
         <WindowX value="17"/>
+        <WindowHeight value="1571"/>
+        <ScaleFactor value="2"/>
     </Preferences>
 
 </KintermMap>
