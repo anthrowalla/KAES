@@ -361,7 +361,7 @@ public class Kaes extends Frame
 		//{{CONNECTION
 		// Action from Exit Create and show as modal
 		//(new QuitDialog(this, true)).setVisible(true);
-		Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
+		((java.awt.Window)GlobalWindowManager.getMainWindow()).dispatchEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
 
 		//}}
 	}

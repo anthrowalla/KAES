@@ -293,7 +293,7 @@ public class MainFrame extends Frame {
 		prefs.putPreference("vector",q);
 		prefs.savePrefs("KAESPrefs.xml");
 		System.out.println("Exiting");
-		Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(new WindowEvent((java.awt.Window)this, WindowEvent.WINDOW_CLOSING));
+		this.dispatchEvent(new WindowEvent((java.awt.Window)this, WindowEvent.WINDOW_CLOSING));
 	}
 
 	void miOpen_Action(java.awt.event.ActionEvent event)

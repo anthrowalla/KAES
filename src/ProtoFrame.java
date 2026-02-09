@@ -163,7 +163,7 @@ public abstract class ProtoFrame extends Frame implements Printable {
 	
 	void quitmenuItem_ActionPerformed(java.awt.event.ActionEvent event)
 	{
-		Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
+		((java.awt.Window)GlobalWindowManager.getMainWindow()).dispatchEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
 	}
 	
 	void prefsmenuItem_ActionPerformed(java.awt.event.ActionEvent event)

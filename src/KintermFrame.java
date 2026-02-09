@@ -1061,7 +1061,7 @@ public class KintermFrame extends Frame implements Printable
 		//{{CONNECTION
 		// Hide the KintermFrame
 //		setVisible(false);
-	Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
+	((java.awt.Window)GlobalWindowManager.getMainWindow()).dispatchEvent(new WindowEvent((java.awt.Window)GlobalWindowManager.getMainWindow(), WindowEvent.WINDOW_CLOSING));
 		//}}
 	}
 

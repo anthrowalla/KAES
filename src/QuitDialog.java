@@ -127,7 +127,7 @@ public class QuitDialog extends Dialog
 
 	void yesButton_Clicked(java.awt.event.ActionEvent event)
 	{
-		Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(new WindowEvent((java.awt.Window)getParent(), WindowEvent.WINDOW_CLOSING));
+		((java.awt.Window)getParent()).dispatchEvent(new WindowEvent((java.awt.Window)getParent(), WindowEvent.WINDOW_CLOSING));
 	}
 
 	void noButton_Clicked(java.awt.event.ActionEvent event)

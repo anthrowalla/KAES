@@ -1095,8 +1095,8 @@ public class Model3D {
 		int aw = w - drawOffsetX;
 		int ah = h - drawOffsetY;
 		// Use uniform scale to preserve aspect ratio and center graph
-		float scaleX = ((float) aw * 0.8f) / rx;
-		float scaleY = ((float) ah * 0.8f) / ry;
+		float scaleX = ((float) aw * 0.9f) / rx;
+		float scaleY = ((float) ah * 0.9f) / ry;
 		float uniformScale = (scaleX < scaleY) ? scaleX : scaleY;
 		adjXscale = uniformScale;
 		adjYscale = uniformScale;
