@@ -81,6 +81,23 @@ Project published to GitHub at **https://github.com/anthrowalla/KAES** (public, 
 
 **Build**: `ant compile` and `ant jar` both succeed. Changes not yet committed/pushed to GitHub.
 
+### Graph Window: Centering and Drag Fixes (COMPLETE)
+
+**Problem 1 — Graph content not centered when generated:**
+Three issues combined to prevent proper centering:
+- `SexMarkedModel3D.paint0()` (used for Algebra/Kinterm views) called `transform()` directly but never called `setMatBounds()`, so centering margins were never computed for the current data.
+- `Model3D.setMatBounds()` computed margins as `(availableWidth - range * scale) / 2`, which only centers correctly when `xmin=0`. When `xmin != 0`, content is shifted by `xmin * scale`. Fixed formula: `margin = (aw - rx * scale) / 2 - xmin * scale`.
+- `GenealogicalModel3D.setMatBounds()` used hardcoded margin fractions (`w*0.5`, `h*0.6`) instead of proper centering, and didn't use uniform scaling or account for `drawOffset`. Rewritten to use the same uniform-scale centering formula as `Model3D`.
+
+**Fix**: All three `paint0()` methods now use the `marginsSet` flag as a guard — `setMatBounds()` only runs when `marginsSet` is false (set by `Model3D.setSize()` when new content is loaded). During drag rotation, only `transform()` runs with the pre-calculated scale and margins.
+
+**Problem 2 — Dragging became unresponsive after content regeneration:**
+The old AWT 1.0 event methods (`mouseDown`, `mouseDrag`, `mouseUp` taking `Event` parameters) were **never being called** on the user's JDK. Diagnostic output confirmed zero mouse event messages even when dragging appeared to work initially. Modern JDK versions on macOS have effectively disabled the 1.0 event dispatch path.
+
+**Fix**: `ThreeD` now implements `MouseListener` and `MouseMotionListener` (the 1.1 event model) and registers itself in `init()`. The new `mousePressed`, `mouseDragged`, and `mouseReleased` methods handle rotation and double-click reset. Old 1.0 methods are kept as fallback. The `painted` flag and `synchronized setPainted()` were removed — they served as a repaint gate that could get stuck, and are unnecessary since AWT `repaint()` coalesces safely.
+
+**Files changed**: `ThreeD.java`, `Model3D.java`, `SexMarkedModel3D.java`, `GenealogicalModel3D.java`, `Frame3D.java`
+
 ## Remaining Work
 
 ### 1. Commit & Push Window Sizing Fix (NOT DONE)

@@ -452,9 +452,8 @@ public class Model3D {
   void paint0(Graphics g) {
 		if (vert == null || nvert <= 0)
 		    return;
-	//  if (!marginsSet)
-		   setMatBounds();
-		// transform();
+	   if (!marginsSet) setMatBounds();
+	   else transform();
 		if (gr == null) {
 		    gr = new Color[16];
 		    for (int i = 0; i < 16; i++) {
@@ -1084,8 +1083,6 @@ public class Model3D {
 	public void setMatBounds() {
 		int h=height;
 		int w=width;
-		int a = (h < w ? h : w);
-		int i;
 
 		findBB();
 		float rx = xmax - xmin;
@@ -1103,9 +1100,9 @@ public class Model3D {
 		float uniformScale = (scaleX < scaleY) ? scaleX : scaleY;
 		adjXscale = uniformScale;
 		adjYscale = uniformScale;
-		// Center the graph in the available area
-		int mx = (int)((aw - rx * uniformScale) / 2);
-		int my = (int)((ah - ry * uniformScale) / 2);
+		// Center the graph in the available area, accounting for xmin/ymin offset
+		int mx = (int)((aw - rx * uniformScale) / 2 - xmin * uniformScale);
+		int my = (int)((ah - ry * uniformScale) / 2 - ymin * uniformScale);
 		mat.setAdjscale(adjXscale, adjYscale,20);
 		mat.setMargins(mx, my);
 		marginsSet=true;

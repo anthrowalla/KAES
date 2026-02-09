@@ -49,7 +49,8 @@ public class SexMarkedModel3D extends Model3D{
     void paint0(Graphics g) {
       if (vert == null || nvert <= 0)
         return;
-      transform();
+      if (!marginsSet) setMatBounds();
+      else transform();
       if (nvert <= 0)
         return;
       int lim = nvert;

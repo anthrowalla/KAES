@@ -16,9 +16,8 @@ public class GenealogicalModel3D extends Model3D{
     void paint0(Graphics g) {
 		if (vert == null || nvert <= 0)
 		    return;
-		//transform();
-		//if (!marginsSet)
-			setMatBounds();
+		if (!marginsSet) setMatBounds();
+		else transform();
 		if (nvert <= 0)
 		    return;
 		int lim = nvert;
@@ -147,20 +146,28 @@ public class GenealogicalModel3D extends Model3D{
 	public void setMatBounds() {
 		int h=height;
 		int w=width;
-		int a = (h < w ? h : w);
-		int i;
 
 		findBB();
 		float rx = xmax - xmin;
 		float ry = ymax - ymin;
 
 		rx = (rx < 0 ? -rx : rx)+2;
-		ry = ((int) ((ry < 0 ? -ry : ry)));
+		ry = ((int) ((ry < 0 ? -ry : ry)))+1;
 
-		adjXscale = ((float) w )/rx;
-		adjYscale = ((float) h )/ry;
+		// Available drawing area after g.translate offset
+		int aw = w - drawOffsetX;
+		int ah = h - drawOffsetY;
+		// Use uniform scale to preserve aspect ratio and center graph
+		float scaleX = ((float) aw * 0.8f) / rx;
+		float scaleY = ((float) ah * 0.8f) / ry;
+		float uniformScale = (scaleX < scaleY) ? scaleX : scaleY;
+		adjXscale = uniformScale;
+		adjYscale = uniformScale;
+		// Center the graph in the available area, accounting for xmin/ymin offset
+		int mx = (int)((aw - rx * uniformScale) / 2 - xmin * uniformScale);
+		int my = (int)((ah - ry * uniformScale) / 2 - ymin * uniformScale);
 		mat.setAdjscale(adjXscale, adjYscale,20);
-		mat.setMargins(((int) (w/10+w/2.5)),((int) (h/10+h/2)));
+		mat.setMargins(mx, my);
 		marginsSet=true;
 		transform();
 	}

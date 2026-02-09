@@ -706,7 +706,7 @@ Debug.prout(4,"START POPULATE MODELB");
 		ay = y;
 		return true;
     }
-	
+
 	int ax=0, ay=0;
 	public boolean mouseUp(Event e, int x, int y) {
 		ax = x-ax;
