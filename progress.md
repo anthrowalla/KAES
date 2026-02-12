@@ -57,6 +57,7 @@ Project published to GitHub at **https://github.com/anthrowalla/KAES** (public, 
 
 - Created `.gitignore` excluding `bin/`, `dist/`, `.DS_Store`, `*.jsonl`, IDE files, `KAESPrefs.xml`, `*.xcodeproj/`
 - Initialized git repo, committed all source files, pushed to GitHub
+- Repository is active with ongoing development
 
 ### KintermFrame Window Sizing Fix (COMPLETE)
 **Problem**: When a kinterm map is loaded from MainFrame, the `KintermFrame` window opens too small at scale 2 or 4. The layout components (algebraControlPanel, ThreeD graph, text areas, scrollPane) are all positioned using `ScaleManager.s()`, but `setFromPreferences()` applies saved window dimensions from XML files as raw pixels. These saved values (e.g., `WindowWidth=990, WindowHeight=719`) were written at scale 1 and are far too small for scaled layouts.
@@ -79,7 +80,7 @@ Project published to GitHub at **https://github.com/anthrowalla/KAES** (public, 
    docPreferences.putPreference("ScaleFactor", ScaleManager.getScaleFactor());
    ```
 
-**Build**: `ant compile` and `ant jar` both succeed. Changes not yet committed/pushed to GitHub.
+**Build**: `ant compile` and `ant jar` both succeed. All changes have been committed to GitHub.
 
 ### Graph Window: Centering and Drag Fixes (COMPLETE)
 
@@ -98,10 +99,19 @@ The old AWT 1.0 event methods (`mouseDown`, `mouseDrag`, `mouseUp` taking `Event
 
 **Files changed**: `ThreeD.java`, `Model3D.java`, `SexMarkedModel3D.java`, `GenealogicalModel3D.java`, `Frame3D.java`
 
+## Recent Session Work
+
+### AKT_KinMap Cleanup (IN PROGRESS)
+- Added partially cleaned up AKT_KinMap to the codebase (commit 4385f16)
+- Work in progress - file is partially cleaned up but not fully integrated
+
 ## Remaining Work
 
-### 1. Commit & Push Window Sizing Fix (NOT DONE)
-The KintermFrame changes are built but not yet committed or pushed to GitHub.
+### 1. Complete AKT_KinMap Cleanup (IN PROGRESS)
+The AKT_KinMap file needs:
+- Full code cleanup and formatting
+- Integration with the scaling system
+- Testing and verification
 
 ### 2. PreferencesDialog Scale Factor UI (NOT DONE)
 Currently the preferences dialog shows all prefs as generic text fields. Need to add a proper UI control (Choice dropdown or radio buttons) for the Display_Scale_Factor preference with valid values 1, 2, 4. The current generic text field approach works but is not user-friendly and has no validation.
